@@ -1,0 +1,39 @@
+import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration:none ;
+}
+
+body{
+	font-size: 100%; 
+
+
+} 
+
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: 'Allerta', sans-serif; 
+
+
+}
+
+.conteudo{
+	border-top:0.4px solid black;
+	margin-bottom: 48px;
+	margin-top: 20px;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.rodape{
+	padding:32px ;
+	border-top:0.4px solid black;
+	flex:1 ;
+	font-family:'Allerta', sans-serif ;
+
+}
